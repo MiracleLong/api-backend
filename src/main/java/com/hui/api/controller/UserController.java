@@ -6,7 +6,6 @@ import com.hui.api.common.BaseResponse;
 import com.hui.api.common.DeleteRequest;
 import com.hui.api.common.ErrorCode;
 import com.hui.api.common.ResultUtils;
-import com.hui.api.config.WxOpenConfig;
 import com.hui.api.constant.UserConstant;
 import com.hui.api.exception.BusinessException;
 import com.hui.api.exception.ThrowUtils;
