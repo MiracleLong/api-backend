@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * 客户端配置
  * @author dargon
  * @create 2023-08-26
  */
@@ -22,7 +23,7 @@ public class HuiApiClientConfig {
     private String secretKey;
 
     @Bean
-    public HuiApiClient yuApiClient() {
+    public HuiApiClient huiApiClient() {
         return new HuiApiClient(accessKey, secretKey);
     }
 

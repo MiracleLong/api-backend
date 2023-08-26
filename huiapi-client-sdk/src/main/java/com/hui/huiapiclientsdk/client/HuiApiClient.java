@@ -5,12 +5,14 @@ import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
-import com.hui.huiapiclientsdk.model.User;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import static com.hui.huiapiclientsdk.utils.SignUtils.genSign;
+import com.hui.huiapiclientsdk.model.User;
+
+
 
 /**
  * 调用第三方接口的客户端

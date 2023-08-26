@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 public class NameController {
     @GetMapping("/get")
     public String getNameByGet(String name, HttpServletRequest request) {
-        System.out.println(request.getHeader("yupi"));
+        System.out.println(request.getHeader("hui"));
         return "GET 你的名字是" + name;
     }
 
@@ -32,7 +32,7 @@ public class NameController {
 //        String sign = request.getHeader("sign");
 //        String body = request.getHeader("body");
 //        // todo 实际情况应该是去数据库中查是否已分配给用户
-//        if (!accessKey.equals("yupi")) {
+//        if (!accessKey.equals("hui")) {
 //            throw new RuntimeException("无权限");
 //        }
 //        if (Long.parseLong(nonce) > 10000) {
